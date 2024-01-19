@@ -1,0 +1,66 @@
+{
+  "id" : "https://RossanaDamiano.github.io/Test/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in RossanaDamiano/Test project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 640,
+    "id" : "https://RossanaDamiano.github.io/Test/images/cuneiform/canvas/",
+    "label" : {
+      "none" : [ "cuneiform" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://RossanaDamiano.github.io/Test/images/cuneiform/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://RossanaDamiano.github.io/Test/images/cuneiform/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 20,
+              "height" : 14
+            }, {
+              "width" : 40,
+              "height" : 27
+            }, {
+              "width" : 80,
+              "height" : 54
+            }, {
+              "width" : 160,
+              "height" : 107
+            }, {
+              "width" : 320,
+              "height" : 213
+            }, {
+              "width" : 640,
+              "height" : 426
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 640,
+            "@id" : "https://RossanaDamiano.github.io/Test/images/cuneiform",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 426
+          } ],
+          "format" : "image/jpeg",
+          "width" : 640,
+          "id" : "https://RossanaDamiano.github.io/Test/images/cuneiform/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 426
+        },
+        "target" : "https://RossanaDamiano.github.io/Test/images/cuneiform/canvas/"
+      } ]
+    } ],
+    "height" : 426
+  } ]
+}
